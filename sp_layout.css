@@ -24,6 +24,7 @@ body {
    margin-left: auto;
    margin-right: auto;
    min-height: 100%;
+   display: grid;
 }
 img {
    display: block;
@@ -35,7 +36,7 @@ img {
    display: grid;
    grid-template-columns: 25% 25% 25% 25%;
 }
-img#logo {
+#logo {
    grid-column: span 3;
    width: 100%;
 }
@@ -53,7 +54,7 @@ aside {
 nav.horizontal li {
    display: block;
    width: 12.5%;
-   float:left;
+   float: left;
 }
 
 
