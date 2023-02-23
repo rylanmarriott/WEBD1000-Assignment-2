@@ -14,7 +14,15 @@
 */
 
 /* Window and Body Styles */
-
+html {
+   height: 100%;
+}
+body {
+   width: 95%;
+   max-width: 960px;
+   min-width: 640px;
+   
+}
 
 
 
