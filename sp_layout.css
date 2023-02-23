@@ -58,7 +58,20 @@ nav.horizontal li {
 
 
 /* Section Styles */
-
+section img {
+   width: 50%;
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: auto;
+   margin-right: auto;
+}
+section p {
+   width: 70%;
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: auto;
+   margin-right: auto;
+}
 
 
 
