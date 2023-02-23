@@ -25,12 +25,19 @@ body {
    margin-right: auto;
    min-height: 100%;
 }
-
+img {
+   display: block;
+}
 
 
 /* CSS Grid Styles */
+.grid-container {
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
+}
+img#logo {
 
-
+}
 
 
 
