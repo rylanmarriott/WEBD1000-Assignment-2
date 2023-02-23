@@ -36,14 +36,25 @@ img {
    grid-template-columns: 25% 25% 25% 25%;
 }
 img#logo {
-
+   grid-column: span 3;
+   width: 100%;
 }
-
+nav.horizontal, footer{
+   grid-column: span 4;
+}
+aside {
+   grid-column: span 2;
+}
 
 
 
 /* Horizontal Navigation List Styles */
 
+nav.horizontal li {
+   display: block;
+   width: 12.5%;
+   float:left;
+}
 
 
 /* Section Styles */
